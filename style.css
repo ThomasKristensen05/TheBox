@@ -1,0 +1,341 @@
+* {
+    margin: 0;
+    overflow-x: hidden;
+    font-family: sans-serif;
+}
+
+nav {
+    width: 62em;
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: end;
+    gap: 5em;
+    position: absolute;
+    right: 10rem;
+    
+}
+
+nav a {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+.colorOrange {
+    color: orange;
+}
+
+.logo {
+    padding-left: 5em;
+}
+
+main h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 3rem;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 7em;
+    left: 5em;
+}
+
+main img {
+    width: 100%;
+    height: 45em;
+    object-fit: cover;
+}
+
+.allReasons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.reasons {
+    padding-bottom: 10em;
+}
+
+.reasons h2 {
+    display: flex;
+    justify-content: center;
+    padding: 1em 0;
+    font-size: 2rem;
+    font-weight: bold;
+    
+}
+
+.reason1,
+.reason2,
+.reason3 {
+    width: 15em;
+    height: 9em;
+    border: 1px grey solid;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 1rem;
+    gap: 1em;
+    border-radius: 0.3rem;
+}
+
+.reason1 h3,
+.reason2 h3,
+.reason3 h3 {
+    font-size: 1.5rem;
+}
+
+.aboutUs img {
+    width: 56em;
+    margin-left: 7em;
+}
+
+.factBox {
+    width: 28em;
+    height: 30em;
+    background-color: rgb(0, 0, 139);
+    color: white;
+    position: absolute;
+    top: 80em;
+    right: 14em;
+}
+
+.factBox h1 {
+    font-size: 2em;
+    padding: 1em 0 0 1em;
+}
+
+.factBox p {
+    padding: 2em 2em 0 2em;
+}
+
+.factBox button {
+    color: rgb(0, 0, 139);
+    font-weight: bold;
+    height: 3em;
+    padding: 0 0.6rem 0 0.6rem;    
+    margin: 3em 2em;
+}
+
+adImg img {
+    position: relative;
+}
+
+.ad {
+    width: 100%;
+    height: 20em;
+    object-fit: cover;
+    padding-top: 20em;
+    overflow-y: hidden;
+}
+
+.text {
+    color: white;
+    position: absolute;
+    top: 144em;
+    width: 100%;
+    padding-left: 10em;
+}
+
+.consultation {
+    position: relative;
+    left: 65em;
+    height: 3em;
+    width: 15em;
+    background-color: transparent;
+    color: white;
+}
+
+.slider {
+    position: relative;
+    margin-left: 7em;
+    margin-top: 10em;
+}
+
+.slider h1 {
+    font-size: 2em;
+    padding-bottom: 0.5em;
+}
+
+.slider__slide {
+    display: none;
+    height: 40rem;
+    width: 100em;
+}
+
+.slider__slide--visible {
+    display: block;
+    width: 1440px;
+}
+
+.slider__image {
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+}
+
+.slider__prev,
+.slider__next {
+    position: absolute;
+    top: 50%;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    border: none;
+    transform: translate(-50%, -50%);
+}
+
+.slider__prev {
+    left: 3%;
+}
+
+.slider__next {
+    right: 7.5%;
+}
+
+.bottom {
+    padding-top: 5em;
+    background-color: rgb(247, 247, 247);
+}
+
+.bottom h1,
+.bottom h2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 2em;
+}
+
+.inputForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+    padding: 5em 10em;
+}
+
+.formgroup input,
+.formgroup input {
+    width: 35em;
+    height: 2em;
+    border-radius: 0.3em;
+    opacity: 50%;
+}
+
+textarea {
+    width: 35em;
+    height: 10em;
+    resize: none;
+    border-radius: 0.3em;
+    opacity: 50%;
+}
+
+.bottom button {
+    width: 20em;
+    height: 3em;
+    background-color: rgb(0, 0, 139);
+    color: white;
+    border: none;
+}
+
+.adress,
+.phone,
+.email {
+    width: 40em;
+    border: none;
+    font-size: 1.1em;
+    display: flex;
+    gap: 1em;
+    padding-top: 1em;
+}
+
+.adressP,
+.phoneP,
+.emailP,
+.newsletter,
+.socials p {
+    color: rgb(0, 0, 139);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.contactInfo {
+    height: 30em;
+    padding: 5em 0 0 5em;
+}
+
+.newsletter {
+    position: absolute;
+    right: 15em;
+    top: 263em;
+    display: flex;
+    flex-direction: column;
+}
+
+.newsletter input {
+    margin-top: 1em;
+    height: 2em;
+    width: 15em;
+    border-radius: 0.3rem;
+}
+
+.subscripeBtn {
+    margin-top: 1em;
+    position: absolute;
+    top: 316.9em;
+    right: 9em;
+    height: 2.5em;
+    width: 8em;
+    border: none;
+    border-radius: 0.3rem;
+    background-color: orange;
+    color: white;
+}
+
+.footerLogo {
+    position: absolute;
+    top: 271em;
+    padding-left: 5em;
+}
+
+.socials p {
+    position: absolute;
+    top: 270em;
+    right: 23.3em;
+}
+
+.fb,
+.linkedin,
+.twitter {
+    height: 2em;
+}
+
+.fb {
+    position: absolute;
+    top: 271.5em;
+    right: 26em;
+}
+
+.linkedin {
+    position: absolute;
+    top: 271.5em;
+    right: 23em;
+}
+
+.twitter {
+    position: absolute;
+    top: 271.5em;
+    right: 20em;
+}
+
+.footer__footer {
+    background-color: rgb(0, 0, 139);
+    color: white;
+    height: 6em;
+    display: flex;
+    align-items: center;
+    padding-left: 5em;
+}

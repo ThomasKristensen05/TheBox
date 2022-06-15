@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>The Box</title>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="#" class="logo"><img src="./img/theboxlogo.svg" alt=""></a>
+            <ul>
+                <a href="#"><li>Home</li></a>
+                <a href="#"><li>About us</li></a>
+                <a href="#"><li>Projects</li></a>
+                <a href="#" class="colorOrange"><li class="colorOrange">Contact us</li></a>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <img src="./img/hero.jpg">
+        <h1>Building things is our mission</h1>
+    </main>
+    <section class="reasons">
+        <h2>Our Reputation</h2>
+        <div class="allReasons">
+        <article class="reason1">
+            <h3>Best services</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, ut?</p>
+        </article>
+        <article class="reason2">
+            <h3>Best Teams</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, ut?</p>
+        </article>
+        <article class="reason3">
+            <h3>Best Designs</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, ut?</p>
+        </article>
+    </div>
+    </section>
+    <section class="aboutUs">
+        <img src="./img/founder.jpg" alt="">
+        <article class="factBox">
+            <h1>About us</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto numquam deserunt ipsam dolores laudantium saepe nesciunt, fuga rem nulla ratione.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti illum blanditiis soluta similique saepe illo exercitationem fuga vitae atque repellat.</p>
+            <button class="moreHistory">More of our history</button>
+        </article>
+    </section>
+
+    <div class="ad">
+        <div class="adImg">
+            <img src="./img/consultation.jpg">
+        </div>
+        <div class="text">
+            <h1>Free consultation with exeptional quality</h1>
+            <p>Just one call away: +84 1102 2703</p>
+            <button class="consultation">Get your consultation</button>
+        </div>
+    </div>
+    
+    <section class="slider">
+        <h1>Projects</h1>
+        <div class="slider__slide">
+            <img class="slider__image" src="./img/gallery1.jpg">
+        </div>
+        <div class="slider__slide">
+            <img class="slider__image" src="./img/gallery2.jpg">
+        </div>
+        <div class="slider__slide">
+            <img class="slider__image" src="./img/gallery3.jpg">
+        </div>
+        <div class="slider__slide">
+            <img class="slider__image" src="./img/gallery4.jpg">
+        </div>
+        <button class="slider__prev"><</button>
+        <button class="slider__next">></button>
+    </section>
+
+    <div class="bottom">
+        <form method="get" name="helpCenter" id="helpCenter">
+            <h1>How can we help you?</h1>
+            <h2>We are ready to work  on a project of any complexity, whether it's commercial or residential.</h2>
+            <div class="inputForm">
+                <div class="formgroup">
+                    <input type="text" name="fullName" placeholder="Your name">
+                    <label for="fullname"></label>
+                    <small class="formgroup__errormsg"></small>
+                </div>
+                <div class="formgroup">
+                    <input type="text" name="email" placeholder="Your email">
+                    <label for="email"></label>
+                    <small class="formgroup__errormsg"></small>
+                </div>
+                <div class="formgroup">
+                    <textarea name="message" id="message" placeholder="Messsage"></textarea>
+                    <small class="formgroup__errormsg"></small>
+                </div>
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+
+    <footer>
+        <div class="contactInfo">
+            <div class="adress">
+                <p class="adressP">Adresse:</p>
+                <p>6391 Elgin St. Celina, Delaware 10299</p>
+            </div>
+            <div class="phone">
+                <p class="phoneP">Phone:</p>
+                <p>+84 1102 2703</p>
+            </div>
+            <div class="email">
+                <p class="emailP">Email:</p>
+                <p>hello@thebox.com</p>
+            </div>
+        </div>
+        <img src="./img/theboxlogo.svg" class="footerLogo">
+        <div class="newsletter">
+            <label for="newsletter">Newsletter:</label>
+            <input type="text" name="newsletter" placeholder="Your email here">
+        </div>
+        <button class="subscripeBtn">Subscripe</button>
+        <div class="socials">
+            <p>Socials:</p>
+            <img src="./img/fb.PNG" class="fb">
+            <img src="./img/linkedIn.PNG" class="linkedin">
+            <img src="./img/twitter.PNG" class="twitter">
+        </div>
+        <div class="footer__footer">
+            <p>TheBox Company 2022. All Rights Reserved</p>
+        </div>
+    </footer>
+    
+
+    <script src="./slider.js" defer></script>
+    <script src="./memberform.js" defer></script>
+</body>
+</html>
